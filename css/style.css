@@ -49,6 +49,25 @@
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* H3 Title Utility Classes */
+h3.tittle-medium-light,
+.tittle-medium-light {
+  font-family: var(--font-main);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+h3.tittle-medium-dark,
+.tittle-medium-dark {
+  font-family: var(--font-main);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #162350;
+}
+
 /* Reset & Base */
 *,
 *::before,
